@@ -1,0 +1,14 @@
+.mar-right-10{margin-right: 10px;}
+.mar-right-5{margin-right: 5px;}
+.no-dec{text-decoration: none !important;}
+.text-right{
+    text-align: right;
+}
+@media (max-width:767px){
+    .text-right{
+        text-align: left;
+    }
+    ul{padding-left: 20px;}
+}
+h3{margin-top:10px;}
+p{margin-bottom: 5px;}
