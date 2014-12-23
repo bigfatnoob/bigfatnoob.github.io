@@ -451,6 +451,32 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 
+@media(max-width:767px) {
+  .portfolio-item {
+    width: 40% !important;
+    margin-left: 5% !important;
+    display: inline-block;
+  }
+  .portfolio-item .item-wrap {
+     background: #fff;
+     overflow: hidden;
+     position: relative;
+     width: 100px;
+     height: 100px;
+     -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin: 0px auto;
+  }
+  .portfolio-item .item-wrap div.skill {
+     display: block;
+     cursor: pointer;
+  }
+
+}
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
