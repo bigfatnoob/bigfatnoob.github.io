@@ -245,7 +245,7 @@ ul#nav li.current a { color: #F06000; }
 	padding-top: 90px;
 }
 
-#work,#projects{
+#work,#projects,#research, #publication{
 	padding-top: 72px;
 	border-top: 1px solid #E8E8E8;
 }
@@ -282,6 +282,11 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+#resume .publ-name {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
 }
 
 /*----------------------------------------------*/
@@ -500,7 +505,7 @@ ul#nav li.current a { color: #F06000; }
   vertical-align: bottom;
   width: 128px;
 }
-.portfolio-item .portfolio-item-meta { 
+.portfolio-item .portfolio-item-meta {
   padding: 18px;
   position: relative;
   text-align: center;
@@ -647,7 +652,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -671,7 +676,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1020,4 +1025,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
