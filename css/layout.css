@@ -257,6 +257,7 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   font-size: 1.5em;
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
@@ -271,7 +272,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   /* color: #6E7881; */
+   color: #2E3841;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -285,8 +287,17 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .publ-name {
   font: 16px/24px 'librebaskerville-italic', serif;
-  color: #6E7881;
-  margin-bottom: 18px;
+  color: #2E3841;
+  margin-bottom: 1em;
+}
+#resume .authors {
+  font: 16px/24px 'opensans-regular', sans-serif;
+  margin-bottom: 1em;
+}
+#resume .authors .author-me{
+  font: 16px/24px 'opensans-regular', sans-serif;
+  color: #2E3841;
+  margin-bottom: 1em;
 }
 
 /*----------------------------------------------*/

@@ -147,7 +147,8 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	 /* color: #838C95; */
+   color: #737C85;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -802,6 +803,10 @@ properly.
 	text-align: center !important;
 }
 
+.ncsu-logo {
+  width: 0.75em;
+  vertical-align:middle;
+}
 
 
 
