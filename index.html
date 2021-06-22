@@ -414,10 +414,13 @@
                <ul>
                  <li>We developed <a href="https://github.com/DynamicCodeSearch/SLACC">SLACC</a>, the first technique to detect cross language code clones across static and dynamic typed languages.</li>
                  <li>SLACC is fully automated and it does not require annotations or manual effort such as seeding test inputs or input files.</li>
-                 <li>We are currently working on combining static and dynamic similarity measures for code search.</li>
-                 <li>Supported languages include Java, Python, Haskell and R.</li>
                  <li>Publication in 
-                   <a href="https://dl.acm.org/doi/10.1145/3377811.3380407">International Conference in SE 2020</a>.</li>
+                  <a href="https://dl.acm.org/doi/10.1145/3377811.3380407">International Conference in SE 2020</a>.</li>
+                 <li>The limitations of dynamic code similarity like low recall and runtime is overcome by augmenting it with
+                    static code similarity measures using a non dominated sort approach. Our tool <a href="https://github.com/DynamicCodeSearch/COSAL">COSAL</a> is publicly available.</li>
+                 <li>Publication in 
+                     <a href="https://arxiv.org/pdf/2106.09173.pdf">ESEC / Foundations in SE 2021</a>.</li>
+                 <li>Supported languages include Java, Python, Haskell and R.</li>
                </ul>
             </div>
           </div>
@@ -488,6 +491,20 @@
       <section id="publication" class="row research">
         <div class="two columns header-col">
            <h1><span>Papers</span></h1>
+        </div>
+
+        <div class="ten columns main-col">
+         <div class="row item">
+           <div class="two columns">
+             <a href="https://arxiv.org/abs/1608.08100">ESEC/FSE 21
+             </a>
+           </div>
+           <div class="five columns publ-name">
+            Cross-language Code Search Using Static and Dynamic Analyses
+           </div>
+           <div class="five columns authors">
+              <span class="author-me">George Mathew</span>, Kathryn Stolee
+           </div>
         </div>
 
         <div class="ten columns main-col">
